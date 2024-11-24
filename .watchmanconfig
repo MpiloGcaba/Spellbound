@@ -1,1 +1,8 @@
-{}
+{
+    "resolver": {
+        "blacklistRE": "exclusionList([/node_modules\/.*\/node_modules\/react-native\/.*/])"
+    },
+   "watch": {
+      "usePolling": true
+    }
+}
